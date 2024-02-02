@@ -1,0 +1,183 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hi there",
+        "Hello",
+        "Hey there",
+        "Howdy",
+        "Hola",
+        "Bonjour",
+        "Konnichiwa",
+        "Guten tag",
+        "Ola"
+      ],
+      "responses": [
+        "Hello there. How can I help you?",
+        "Hi there. What brings you here today?",
+        "Hi there. What's up!",
+        "Great to see you. How do you feel currently?",
+        "Hello there. Glad to see you're back. What's going on?"
+      ]
+    },
+    {
+      "tag": "school_info",
+      "patterns": [
+        "Tell me about the school",
+        "What makes the school unique?",
+        "School features",
+        "Give me an overview of the school"
+      ],
+      "responses": [
+        "Our school is known for its dedicated teachers, excellent facilities, and a vibrant learning environment."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I apply for admission?",
+        "Admission process",
+        "Application procedure"
+      ],
+      "responses": [
+        "To apply for admission, you can visit our school website and follow the online application process. If you have specific questions, feel free to ask."
+      ]
+    },
+    {
+      "tag": "extracurricular",
+      "patterns": [
+        "What extracurricular activities are available?",
+        "Clubs and activities",
+        "Extracurricular options"
+      ],
+      "responses": [
+        "We offer a wide range of extracurricular activities, including sports, arts, and science clubs. Students can explore their interests and passions."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Tell me about upcoming events",
+        "School events",
+        "Any events happening soon?"
+      ],
+      "responses": [
+        "Stay tuned for our upcoming events! We regularly organize workshops, competitions, and community gatherings to enrich the student experience."
+      ]
+    },
+    {
+      "tag": "random_command_1",
+      "patterns": [
+        "What's the cafeteria menu for today?",
+        "Tell me about the lunch options",
+        "Cafeteria offerings"
+      ],
+      "responses": [
+        "Our cafeteria serves a variety of healthy and delicious options. You can check the daily menu on our school website or at the cafeteria notice board."
+      ]
+    },
+    {
+      "tag": "random_command_2",
+      "patterns": [
+        "How can I contact the school administration?",
+        "Contact details",
+        "School office contact"
+      ],
+      "responses": [
+        "You can contact the school administration by calling our main office at [school phone number] or sending an email to [school email address]."
+      ]
+    },
+    {
+      "tag": "random_command_3",
+      "patterns": [
+        "Tell me about the school library",
+        "Library services",
+        "Available books"
+      ],
+      "responses": [
+        "Our school library provides a quiet and comfortable space for studying. We have a diverse collection of books covering various genres."
+      ]
+    },
+    {
+      "tag": "random_command_4",
+      "patterns": [
+        "What sports facilities does the school have?",
+        "Sports amenities",
+        "Athletic facilities"
+      ],
+      "responses": [
+        "Our school boasts state-of-the-art sports facilities, including a gymnasium, sports fields, and equipment for various sports."
+      ]
+    },
+    {
+      "tag": "random_command_5",
+      "patterns": [
+        "Are there any scholarship opportunities?",
+        "Scholarship programs",
+        "Financial aid"
+      ],
+      "responses": [
+        "Yes, we offer scholarship opportunities to deserving students. You can find more information on our website or contact the admissions office."
+      ]
+    },
+    {
+      "tag": "random_command_6",
+      "patterns": [
+        "Tell me about the technology in classrooms",
+        "Classroom technology",
+        "Interactive learning"
+      ],
+      "responses": [
+        "Our classrooms are equipped with modern technology to enhance the learning experience, including interactive whiteboards and computer facilities."
+      ]
+    },
+    {
+      "tag": "random_command_7",
+      "patterns": [
+        "Can I tour the school facilities?",
+        "School tours",
+        "Visit the campus"
+      ],
+      "responses": [
+        "Certainly! We encourage prospective students and their families to schedule a school tour to explore our facilities and get a feel for the campus."
+      ]
+    },
+    {
+      "tag": "random_command_8",
+      "patterns": [
+        "How is the school involved in the community?",
+        "Community engagement",
+        "Outreach programs"
+      ],
+      "responses": [
+        "We actively engage with the local community through various outreach programs, fostering a sense of responsibility and community service among our students."
+      ]
+    },
+    {
+      "tag": "random_command_9",
+      "patterns": [
+        "Tell me about the school's educational philosophy",
+        "Teaching approach",
+        "Philosophy of education"
+      ],
+      "responses": [
+        "Our school follows a student-centered educational philosophy, emphasizing critical thinking, creativity, and holistic development."
+      ]
+    },
+    {
+      "tag": "random_command_10",
+      "patterns": [
+        "How is the school addressing diversity and inclusion?",
+        "Diversity initiatives",
+        "Inclusive environment"
+      ],
+      "responses": [
+        "We are committed to creating an inclusive and diverse environment where every student feels valued and supported. Our initiatives promote understanding and appreciation of differences."
+      ]
+    }
+  ]
+}
