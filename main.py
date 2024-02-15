@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Request, Form
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import JSONResponse
 import uvicorn
@@ -15,6 +16,15 @@ import pickle
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # Loading dummy school-related data
 with open("intens.json", 'r') as f:
@@ -36,7 +46,7 @@ loaded_model_school = load_model(model_path_school)
 
 @app.get("/")
 def read_root(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse("index_2.html", {"request": request})
 
 @app.post("/chat")
 def process_chat(request: Request, prompt_school: str = Form(...)):
@@ -57,5 +67,6 @@ def process_chat(request: Request, prompt_school: str = Form(...)):
     bot_response_school = random.choice(responses_school) if responses_school else "I don't have information on that topic."
 
     return JSONResponse(content={"bot_response_school": bot_response_school})
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
